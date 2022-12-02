@@ -10,7 +10,7 @@ const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 
 // Song titles
-const songs = ['Hey', 'Summer', 'Away', 'If You Want Love', 'Jesus Can', 'Toosie slide', 'Underdog', 'irobot', 'Kingdom Come', 'crave', '7 years', 'Forever', 'Rocking Chairs', 'Ukulele'];
+const songs = ['Hey', 'Summer', 'Away', 'Toosie slide', 'Underdog', 'irobot', 'Kingdom Come', 'crave', '7 years', 'Forever', 'Rocking Chairs', 'Ukulele'];
 
 // Keep track of song
 let songIndex = 13;
