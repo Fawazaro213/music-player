@@ -13,10 +13,8 @@ const cover = document.getElementById('cover');
 const songs = ['Hey', 'Summer', 'Away', 'Toosie slide', 'Underdog', 'irobot', 'Kingdom Come', 'crave', '7 years', 'Forever', 'Rocking Chairs', 'Ukulele'];
 
 // Keep track of song
-let songIndex = 11;
+let songIndex = songs.length;
 
-// Initially load song details into DOM
-loadSong(songs[songIndex]);
 
 // Update song details
 function loadSong(song) {
@@ -24,6 +22,10 @@ function loadSong(song) {
   audio.src = `music/${song}.mp3`;
   cover.src = `images/${song}.jpg`;
 }
+
+// Initially load song details into DOM
+loadSong(songs[0]);
+// console.log(songs[0])
 
 // Play song
 function playSong() {

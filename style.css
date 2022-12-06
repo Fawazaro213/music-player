@@ -133,7 +133,11 @@ body {
 }
 
 .progress {
-  background-color: #fe8daa;
+  background-image: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.5),
+    rgb(236, 245, 252) 92%
+  );
   border-radius: 5px;
   height: 100%;
   width: 0%;
